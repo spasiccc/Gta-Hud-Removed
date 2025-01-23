@@ -3,7 +3,7 @@
 
 	Request: https://github.com/IS4Code/YSF/releases
 	
-	Example: PlayerGtaHud(playerid, true) // Hud On
+	Example: PlayerGtaHud(playerid, true); // Hud On
 
 
 #include <a_samp>
@@ -12,13 +12,7 @@
 
 stock PlayerGtaHud(playerid, bool:show)
 {
-	if(show)
-	{
-		TogglePlayerWidescreen(playerid, true);
-	}
-	else
-	{
-		TogglePlayerWidescreen(playerid, false);
-	}
+	TogglePlayerWidescreen(playerid, show ? true : false);
+
 	return 1;
 }
