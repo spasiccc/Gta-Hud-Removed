@@ -1,5 +1,5 @@
 	@ Author: Spasic Jovan
-	@ Author Contat: //www.facebook.com/profile.php?id=100074875885781&mibextid=ZbWKwL
+	@ Author Contact: //www.facebook.com/profile.php?id=100074875885781&mibextid=ZbWKwL
 
 	Request: https://github.com/IS4Code/YSF/releases
 	
