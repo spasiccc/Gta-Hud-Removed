@@ -12,7 +12,7 @@
 
 stock PlayerGtaHud(playerid, bool:show)
 {
-	TogglePlayerWidescreen(playerid, show ? true : false);
+	TogglePlayerWidescreen(playerid, show);
 
 	return 1;
 }
